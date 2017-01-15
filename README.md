@@ -1,10 +1,9 @@
 # vanilla-coffee-journals	
 
 vanilla coffee journals is a collection of plain javascript theory, algorithm and functions known as vcj.
+this is a collection for education and to help others understand javascript better
 
 below is a qoute and a link to a thread talkin about vanilla JS.
-
-this is a collection for education and to help others understand javascript better
 
 quoted from [stackoverflow](http://stackoverflow.com/questions/20435653/what-is-vanillajs)
 
