@@ -1,4 +1,4 @@
-#coffee-journals	
+# coffee-journals	
 
 coffee journals is a collection of plain javascript theory, algorithm and functions known as cj scripts.
 this is a collection for education and to help others understand javascript better
