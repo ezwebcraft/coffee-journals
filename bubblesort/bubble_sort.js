@@ -11,7 +11,7 @@
 // source: http://rosettacode.org/wiki/Sorting_algorithms/Bubble_sort
 
 var a = [12,34,213,543,23,124,643,2,34];
- 
+
 function bubble_sort(a)
 {
     var swapped;
@@ -27,6 +27,6 @@ function bubble_sort(a)
         }
     } while (swapped);
 }
- 
+
 bubble_sort(a);
 console.log(a);
