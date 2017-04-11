@@ -24,4 +24,5 @@ quoted from [stackoverflow](http://stackoverflow.com/questions/20435653/what-is-
 
 
 ### coffee-journals list
-- [bubblesort](https://github.com/ezwebcraft/coffee-journals/tree/master/bubblesort) 
+- [algorithm](https://github.com/ezwebcraft/coffee-journals/tree/master/algorithm) 
+- [nodeschool](https://github.com/ezwebcraft/coffee-journals/tree/master/nodeschool)
