@@ -180,3 +180,77 @@ Learn the basics of JavaScript. No previous programming experience required.
   Check to see if your program is correct by running this command:  
    
   javascripting verify revising-strings.js  
+
+## NUMBERS (Exercise 6 of 19)  
+   
+  Numbers can be integers, like 2, 14, or 4353, or they can be decimals,  
+  also known as floats, like 3.14, 1.5, or 100.7893423. Unlike Strings,  
+  Numbers do not need to have quotes.  
+   
+## The challenge:  
+   
+  Create a file named numbers.js.  
+   
+  In that file define a variable named example that references the integer  
+  123456789.  
+   
+  Use console.log() to print that number to the terminal.  
+   
+  Check to see if your program is correct by running this command:  
+   
+  javascripting verify numbers.js  
+
+## ROUNDING NUMBERS (Exercise 7 of 19)  
+   
+  We can do basic math using familiar operators like `+, -, *, /, and %. `
+   
+  For more complex math, we can use the Math object.  
+   
+  In this challenge we'll use the Math object to round numbers.  
+   
+## The challenge:  
+   
+  Create a file named rounding-numbers.js.  
+   
+  In that file define a variable named roundUp that references the float  
+  1.5.  
+   
+  We will use the Math.round() method to round the number up. This method  
+  rounds either up or down to the nearest integer.  
+   
+  An example of using Math.round():  
+   
+     Math.round(0.5);  
+   
+  Define a second variable named rounded that references the output of the  
+  Math.round() method, passing in the roundUp variable as the argument.  
+   
+  Use console.log() to print that number to the terminal.  
+   
+  Check to see if your program is correct by running this command:  
+   
+     javascripting verify rounding-numbers.js  
+
+## NUMBER TO STRING (Exercise 8 of 19)  
+   
+  Sometimes you will need to turn a number into a string.  
+   
+  In those instances you will use the .toString() method. Here's an example:  
+   
+     var n = 256;  
+     n = n.toString();  
+   
+## The challenge:  
+   
+  Create a file named number-to-string.js.  
+   
+  In that file define a variable named n that references the number 128;  
+   
+  Call the .toString() method on the n variable.  
+   
+  Use console.log() to print the results of the .toString() method to the  
+  terminal.  
+   
+  Check to see if your program is correct by running this command:  
+   
+     javascripting verify number-to-string.js  
