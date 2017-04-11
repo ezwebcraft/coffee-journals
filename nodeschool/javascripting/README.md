@@ -86,3 +86,64 @@ Learn the basics of JavaScript. No previous programming experience required.
  Check to see if your program is correct by running this command:  
 
  javascripting verify variables.js  
+
+## STRINGS (Exercise 3 of 19)  
+   
+  A string is a sequence of characters. A character is, roughly speaking, a  
+  written symbol. Examples of characters are letters, numbers, punctuation  
+  marks, and spaces.  
+   
+  String values are surrounded by either single or double quotation marks.  
+   
+     'this is a string'  
+       
+     "this is also a string"  
+   
+## NOTE  
+   
+  Try to stay consistent. In this workshop we'll only use single quotation  
+  marks.  
+   
+## The challenge:  
+   
+  For this challenge, create a file named strings.js.  
+   
+  In that file create a variable named someString like this:  
+   
+     var someString = 'this is a string';  
+   
+  Use console.log to print the variable someString to the terminal.  
+   
+  Check to see if your program is correct by running this command:  
+   
+  javascripting verify strings.js  
+
+## STRING LENGTH (Exercise 4 of 19)  
+   
+  You will often need to know how many characters are in a string.  
+   
+  For this you will use the .length property. Here's an example:  
+   
+     var example = 'example string';  
+     example.length  
+   
+## NOTE  
+   
+  Make sure there is a period between example and length.  
+   
+  The above code will return a number for the total number of characters in  
+  the string.  
+   
+## The challenge:  
+   
+  Create a file named string-length.js.  
+   
+  In that file, create a variable named example.  
+   
+  Assign the string 'example string' to the variable example.  
+   
+  Use console.log to print the length of the string to the terminal.  
+   
+  Check to see if your program is correct by running this command:  
+   
+  javascripting verify string-length.js     
