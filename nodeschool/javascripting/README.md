@@ -441,3 +441,151 @@ Learn the basics of JavaScript. No previous programming experience required.
     Check to see if your program is correct by running this command:
 
        javascripting verify accessing-array-values.js
+
+
+# LOOPING THROUGH ARRAYS (Exercise 14 of 19)
+
+ For this challenge we will use a for loop to access and manipulate a list
+ of values in an array.
+
+ Accessing array values can be done using an integer.
+
+ Each item in an array is identified by a number, starting at 0.
+
+ So in this array hi is identified by the number 1:
+
+    var greetings = ['hello', 'hi', 'good morning'];
+
+ It can be accessed like this:
+
+    greetings[1];
+
+ So inside a for loop we would use the i variable inside the square
+ brackets instead of directly using an integer.
+
+## The challenge:
+
+ Create a file named looping-through-arrays.js.
+
+ In that file, define a variable named pets that references this array:
+
+    ['cat', 'dog', 'rat'];
+
+ Create a for loop that changes each string in the array so that they are
+ plural.
+
+ You will use a statement like this inside the for loop:
+
+    pets[i] = pets[i] + 's';
+
+ After the for loop, use console.log() to print the pets array to the
+ terminal.
+
+ Check to see if your program is correct by running this command:
+
+    javascripting verify looping-through-arrays.js
+## OBJECTS (Exercise 15 of 19)
+
+  Objects are lists of values similar to arrays, except values are
+  identified by keys instead of integers.
+
+  Here is an example:
+
+     var foodPreferences = {
+       pizza: 'yum',
+       salad: 'gross'
+     };
+
+ ## The challenge:
+
+  Create a file named objects.js.
+
+  In that file, define a variable named pizza like this:
+
+     var pizza = {
+       toppings: ['cheese', 'sauce', 'pepperoni'],
+       crust: 'deep dish',
+       serves: 2
+     };
+
+  Use console.log() to print the pizza object to the terminal.
+
+  Check to see if your program is correct by running this command:
+
+     javascripting verify objects.js
+
+## OBJECT PROPERTIES (Exercise 16 of 19)
+
+ You can access and manipulate object properties –– the keys and values
+ that an object contains –– using a method very similar to arrays.
+
+ Here's an example using square brackets:
+
+    var example = {
+      pizza: 'yummy'
+    };
+
+    console.log(example['pizza']);
+
+ The above code will print the string 'yummy' to the terminal.
+
+ Alternately, you can use dot notation to get identical results:
+
+    example.pizza;
+
+    example['pizza'];
+
+ The two lines of code above will both return yummy.
+
+## The challenge:
+
+ Create a file named object-properties.js.
+
+ In that file, define a variable named food like this:
+
+    var food = {
+      types: 'only pizza'
+    };
+
+ Use console.log() to print the types property of the food object to the
+ terminal.
+
+ Check to see if your program is correct by running this command:
+
+    javascripting verify object-properties.js
+
+## FUNCTIONS (Exercise 17 of 19)  
+   
+  A function is a block of code that takes input, processes that input, and  
+  then produces output.  
+   
+  Here is an example:  
+   
+     function example (x) {  
+       return x * 2;  
+     }  
+   
+  We can call that function like this to get the number 10:  
+   
+     example(5)  
+   
+  The above example assumes that the example function will take a number as  
+  an argument –– as input –– and will return that number multiplied by 2.  
+   
+ ## The challenge:  
+   
+  Create a file named functions.js.  
+   
+  In that file, define a function named eat that takes an argument named  
+  food that is expected to be a string.  
+   
+  Inside the function return the food argument like this:  
+   
+     return food + ' tasted really good.';  
+   
+  Inside of the parentheses of console.log(), call the eat() function with  
+  the string bananas as the argument.  
+   
+  Check to see if your program is correct by running this command:  
+   
+     javascripting verify functions.js  
