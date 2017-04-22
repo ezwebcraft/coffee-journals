@@ -9,6 +9,7 @@ This is a list of javascript courses I will completed from [nodeschool](https://
 - [git-it](https://www.github.com/jlord/git-it-electron)
 - [How to npm](https://github.com/workshopper/how-to-npm)
 - [Scope Chains & Closures](https://www.github.com/jesstelford/scope-chains-closures)
-- [stream-adventure](https://www.github.com/substack/stream-adventure) 
+- [stream-adventure](https://www.github.com/substack/stream-adventure)
 - [Elementary Electron](https://www.github.com/maxogden/elementary-electron)
 - [how-to-markdown](https://github.com/denysdovhan/how-to-markdown)
+- [learnyouhtml](https://github.com/denysdovhan/learnyouhtml)
