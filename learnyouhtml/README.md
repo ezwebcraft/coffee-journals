@@ -154,7 +154,6 @@
   HTML document had its own <head> and <body>. In the <head> tag we put all  
   information about document, like meta-tags and <title>. The content of  
   <title> tag will be shown in browser's tag of this document. In the <body>  
-  we put everything we want to be drawn in browser's window: headings, text,  
   images, etc.  
 
   Probably, you still have a question: "What does <meta charset="utf-8"> tag  
