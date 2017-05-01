@@ -20,10 +20,10 @@ quoted from [stackoverflow](http://stackoverflow.com/questions/20435653/what-is-
 
 "VanillaJS is a name to refer to using plain JavaScript without any additional libraries like jQuery. People use it as a joke to remind other developers that many things can be done nowadays without the need for additional JavaScript libraries."
 
+
 - [vanilla-js](http://vanilla-js.com)
 
 
 ### coffee-journals list
 - [algorithm](https://github.com/ezwebcraft/coffee-journals/tree/master/algorithm)
 - [nodeschool](https://github.com/ezwebcraft/coffee-journals/tree/master/nodeschool)
-- [learnyounode](https://github.com/workshopper/learnyounode)
