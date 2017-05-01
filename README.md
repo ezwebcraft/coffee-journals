@@ -1,4 +1,4 @@
-# coffee-journals	
+# coffee-journals
 
 ```
           ((((
@@ -24,5 +24,6 @@ quoted from [stackoverflow](http://stackoverflow.com/questions/20435653/what-is-
 
 
 ### coffee-journals list
-- [algorithm](https://github.com/ezwebcraft/coffee-journals/tree/master/algorithm) 
+- [algorithm](https://github.com/ezwebcraft/coffee-journals/tree/master/algorithm)
 - [nodeschool](https://github.com/ezwebcraft/coffee-journals/tree/master/nodeschool)
+- [learnyounode](https://github.com/workshopper/learnyounode)
