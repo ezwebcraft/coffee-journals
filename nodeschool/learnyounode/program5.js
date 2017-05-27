@@ -1,13 +1,16 @@
-var filesystem = require('fs')
-var file_path = require('path')
+var fs = require('fs')
 
-var folder = process.argv[2]
+var file = process.argv[2]
+var type = process.argv[3]
+var RegFilter = new RegExp('\\.' + type + '$');
 
-fs.readdir(folder, function(err, list) {
-console.log(file)
-/* ... */
-
-}
+fs.readdir(file, function (err, list) {
+  list.forEach(function (item){
+    if (RegFilter.test(item)) {
+      console.log(item)
+    }
+  })
+})
 
 // fron nodejs doc
 // fs.readdir(path[, options], callback)

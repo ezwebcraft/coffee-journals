@@ -4,7 +4,7 @@ This is a list of javascript courses I will completed from [nodeschool](https://
 
 ### core courses
 
-- [javascripting](https://www.github.com/sethvincent/javascripting)
+- [javascripting](https://www.github.com/sethvincent/javascripting) - completed
 - [learnyounode](https://www.github.com/workshopper/learnyounode)
 - [git-it](https://www.github.com/jlord/git-it-electron)
 - [How to npm](https://github.com/workshopper/how-to-npm)
