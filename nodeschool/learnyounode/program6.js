@@ -1,14 +1,11 @@
 // add both argv
-var dir = process.argv[2]
-var ext = process.argv[3]
+var module1 = require('./module1.js');
 
-require('./moduleDir')(dir, ext, function (err, data) {
-// add error checking
-  if (err) {
-		return console.error(err)
-	}
-// console out for each data
-	data.forEach(function (item) {
-		console.log(item);
-	})
-})
+var dirname = process.argv[2];
+var ext = process.argv[3];
+
+module1(dirname, ext, function(err, files) {
+
+    console.log(files[i]);
+
+});
