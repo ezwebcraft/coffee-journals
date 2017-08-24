@@ -1,4 +1,4 @@
-
+import React, { Component } from 'react'
 
 
 const contacts = [
@@ -21,3 +21,13 @@ const contacts = [
     "avatarURL": "http://localhost:5001/tyler.jpg"
   }
 ]
+
+
+class App extends Component {
+   render() {
+     return (
+       <div>
++        <ListContacts contacts={contacts} />
+       </div>
+     )
+   }
