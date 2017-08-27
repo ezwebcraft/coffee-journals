@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
 
-class ListContacts extends Component {
-  render() {
-    return (
+function ListContacts(props){
+
+return(
       <ol className='contact-list'>
         {this.props.contacts.map((contact) => (
           <li key={contact.id} className='contact-list-item'>
@@ -19,8 +19,7 @@ class ListContacts extends Component {
           </li>
         ))}
       </ol>
-    )
-  }
+	)	
 }
 
 export default ListContacts
