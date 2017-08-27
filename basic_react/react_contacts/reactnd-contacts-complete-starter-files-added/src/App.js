@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import ListContacts from './ListContacts';
-
+import ListContacts from './ListContacts'
 
 const contacts = [
   {
@@ -21,16 +20,16 @@ const contacts = [
     "email": "tyler@reacttraining.com",
     "avatarURL": "http://localhost:5001/tyler.jpg"
   }
-];
-
+]
 
 class App extends Component {
-   render() {
-     return (
-       <div>
+  render() {
+    return (
+      <div>
         <ListContacts contacts={contacts} />
-       </div>
-     )
-   }
-
+      </div>
+    )
+  }
 }
+
+export default App;
