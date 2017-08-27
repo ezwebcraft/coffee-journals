@@ -6,8 +6,9 @@ render(){
 
 return (
 	<ol className="contact-list"> 
-	{this.props.contact.map((contact) =>(
- 	<li>
+	{ this.props.contact.map((contact) =>(
+ 	<li key={contact.id}>
+
 		{contact.name }
 	</li>
 	))}		
