@@ -1,4 +1,5 @@
-import React, { Component } from 'react'
+import React from 'react'
+import PropTypes from 'prop-types'
 
 function ListContacts(props){
 
@@ -21,5 +22,11 @@ return(
       </ol>
 	)	
 }
+
+<ListContacts
+          onDeleteContact={this.removeContact}
+          contacts={this.state.contacts}        
+	/>
+
 
 export default ListContacts
