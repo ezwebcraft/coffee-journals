@@ -23,10 +23,9 @@ return(
 	)	
 }
 
-<ListContacts
-          onDeleteContact={this.removeContact}
-          contacts={this.state.contacts}        
-	/>
-
+ListContacts.propTypes = {
+  contacts: PropTypes.array.isRequired,
+  onDeleteContact: PropTypes.func.isRequired
+}
 
 export default ListContacts
