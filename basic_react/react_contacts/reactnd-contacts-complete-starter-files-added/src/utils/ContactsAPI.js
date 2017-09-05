@@ -1,3 +1,5 @@
+// Contact API
+
 const api = process.env.REACT_APP_CONTACTS_API_URL || 'http://localhost:5001'
 
 let token = localStorage.token
@@ -28,4 +30,4 @@ export const create = (body) =>
       'Content-Type': 'application/json'
     },
     body: JSON.stringify(body)
-  }).then(res => res.json())
+}).then(res => res.json())
