@@ -4,6 +4,7 @@ import * as ContactsAPI from './utils/ContactsAPI'
 
 class App extends Component {
   state = {
+    screen: 'create', // list, create
     contacts: []
   }
   componentDidMount() {
@@ -20,11 +21,16 @@ class App extends Component {
   }
   render() {
     return (
-      <div>
+      <div className="app">
+      {this.state.screen === 'list' && (
         <ListContacts
           onDeleteContact={this.removeContact}
           contacts={this.state.contacts}
         />
+      )}
+      {this.state.screen === 'create' && (
+        <CreateContact/>
+      )}
       </div>
     )
   }
