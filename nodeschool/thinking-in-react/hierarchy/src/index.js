@@ -1,8 +1,34 @@
-import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import registerServiceWorker from './registerServiceWorker';
+import React, { Component } from 'react';
 
-ReactDOM.render(<App />, document.getElementById('root'));
-registerServiceWorker();
+const PRODUCTS = [{category: 'Sporting Goods', price: '$49.99', stocked: true, name: 'Football'}]
+
+class ProductCategoryRow  extends React.Component {
+}
+
+class ProductRow extends React.Component {
+}
+
+class SearchBar extends React.Component {
+
+}
+class ProductTable extends React.Component {
+
+}
+class FilterableProductTable extends React.Component {
+render() {
+    return (
+      <div>
+        <SearchBar />
+        <ProductTable products={this.props.products} />
+      </div>
+    );
+  }
+
+}
+
+const PRODUCTS = [
+    {category: 'Sporting Goods', price: '$49.99', stocked: true, name: 'Football'}
+]
+
+
