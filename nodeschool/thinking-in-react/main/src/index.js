@@ -18,6 +18,22 @@ class ProductCategoryRow  extends React.Component {
 }
 
 class ProductRow extends React.Component {
+	render(){
+		const products = this.props.products;
+		const name = products.stocked ?
+		<span style = {{ color: 'red'}}>
+			{products.name}
+		</span>;
+
+
+	return(
+		<tr>
+			<td>{name}</td>
+			<td>products.price</td>
+		</tr>
+
+		);
+	}
 }
 
 class SearchBar extends React.Component {
