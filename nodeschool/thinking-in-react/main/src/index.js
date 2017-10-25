@@ -1,9 +1,20 @@
 import ReactDOM from 'react-dom';
 import React, { Component } from 'react';
 
-const PRODUCTS = [{category: 'Sporting Goods', price: '$49.99', stocked: true, name: 'Football'}]
 
 class ProductCategoryRow  extends React.Component {
+	render(){
+		const category = this.props.category;
+		return(
+
+			<tr>
+			 <th colSpan='2'>
+			 	{category}
+			 </th>
+			</tr>
+
+		);
+	}
 }
 
 class ProductRow extends React.Component {
