@@ -66,17 +66,15 @@ class ProductTable extends React.Component {
 
    return (
    	<table>
-   	<thread>
-   	<tr>
-   	<th>Name</th>
-   	<th>Price</th>
-   	</tr>
-   	<tbody>{rows}</tbody>
-   	</thread>
+   		<thread>
+   			<tr>
+   				<th>Name</th>
+   				<th>Price</th>
+   			</tr>
+   				<tbody>{rows}</tbody>
+   		</thread>
 
    	</table>
-
-
    	);
 	}
 }
@@ -99,8 +97,8 @@ render() {
 
 }
 
-const PRODUCTS = [
-    {category: 'Sporting Goods', price: '$49.99', stocked: true, name: 'Football'}
-]
 
-
+ReactDOM.render(
+  <FilterableProductTable products={PRODUCTS} />,
+  document.getElementById('container')
+);
