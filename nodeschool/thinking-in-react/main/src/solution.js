@@ -72,7 +72,27 @@ render(){
 });
 
 export const ProductRow = React.createClass({
+ render(){
+ 	const product = this.props.product;
 
+
+ 	const style = {
+ 		color: product.stocked ? null : 'red',
+
+ 	};
+
+ 	return(
+ 		<tr>
+ 			<td style={sytle}>
+ 				{product.name}
+ 			</td>
+ 			<td>
+ 			{product.price}
+ 			</td>
+
+ 		</tr>
+ 		);
+ },
 
 });
 
