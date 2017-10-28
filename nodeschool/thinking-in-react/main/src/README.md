@@ -1,4 +1,4 @@
-### excerise 1
+### What is being created
 
 ![Component Hierarchy](./eb8bda25806a89ebdc838813bdfa3601-812b8.png)
 
