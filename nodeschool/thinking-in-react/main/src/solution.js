@@ -45,17 +45,20 @@ export const ProductTable = React.createClass({
         });
 
         return (<table>
-            <thread>
-                <tr>
-                    <th>Name</th>
-                    <th>Price</th>
-                </tr>
-            </thread>
-            <tbody>
-                {rows}
-                <tbody></table>
+            		<thread>
+                		<tr>
+                    		<th>Name</th>
+                    		<th>Price</th>
+                		</tr>
+            		</thread>
+            			<tbody>
+                			{rows}
+                		</tbody>
+              	</table>
 
-                ); }, }); export const ProductRow = React.createClass({
+                ); }, }); 
+
+export const ProductRow = React.createClass({
                     render() {
                         const product = this.props.product;
 
@@ -77,4 +80,21 @@ export const ProductTable = React.createClass({
                             </tr>
                         );
                     }
-                }); export const ProductCategoryRow = React.createClass({});
+                }); 
+
+
+export const ProductCategoryRow = React.createClass({
+  render() {
+    const category = this.props.category;
+    return (
+      <tr>
+        <th colSpan="2">
+          {category}
+        </th>
+      </tr>
+    );
+  }
+
+
+    
+});
