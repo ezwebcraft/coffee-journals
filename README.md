@@ -1,3 +1,5 @@
+# potential security vulnerabilities in dependencies for nodeschool please use with caution
+
 # coffee-journals
 
 ![alt](Logopit_1506042906656.png)
